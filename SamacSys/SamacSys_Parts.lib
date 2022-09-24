@@ -1,0 +1,113 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EG1270
+#/560789/329604/2.47/3/4/Switch
+DEF EG1270 S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "EG1270" 750 200 50 H V L CNN
+F2 "EG1270" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/EG1270.pdf" 750 0 50 H I L CNN
+F4 "E-SWITCH - EG1270 - SWITCH, SLIDE, SPDT, 300mA, 6V, PCB" 750 -100 50 H I L CNN "Description"
+F5 "4.6" 750 -200 50 H I L CNN "Height"
+F6 "E-Switch" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "EG1270" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "EG1270" 750 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 750 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "612-EG1270" 750 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/E-Switch/EG1270?qs=xDsBkp9LkodMM2ilVTltow%3D%3D" 750 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X NC 1 0 -200 200 R 50 50 0 0 N
+X COMM 2 0 -100 200 R 50 50 0 0 P
+X NO 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 4-1825136-4
+#/730429/329604/2.47/3/4/Switch
+DEF 4-1825136-4 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "4-1825136-4" 650 200 50 H V L CNN
+F2 "SHDR3W165P0X470_1X3_1270X686X2220P" 650 100 50 H I L CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825136%7FA7%7Fpdf%7FEnglish%7FENG_CD_1825136_A7.pdf%7F4-1825136-4" 650 0 50 H I L CNN
+F4 "Switch,toggle,1P,on on,PCB mount,5A" 650 -100 50 H I L CNN "Description"
+F5 "22.2" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "4-1825136-4" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "4-1825136-4" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/4-1825136-4/te-connectivity" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ESP32-CAM
+#/2279126/329604/2.49/16/4/Integrated Circuit
+DEF ESP32-CAM IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "ESP32-CAM" 1050 200 50 H V L CNN
+F2 "ESP32CAM" 1050 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Ai-Thinker-ESP32-CAM_C277946.pdf" 1050 0 50 H I L CNN
+F4 "Modules PCBA Module RoHS" 1050 -100 50 H I L CNN "Description"
+F5 "5" 1050 -200 50 H I L CNN "Height"
+F6 "Ai-Thinker" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ESP32-CAM" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IO4 1 0 -700 200 R 50 50 0 0 P
+X IO2 2 0 -600 200 R 50 50 0 0 P
+X IO14 3 0 -500 200 R 50 50 0 0 P
+X IO15 4 0 -400 200 R 50 50 0 0 P
+X IO13 5 0 -300 200 R 50 50 0 0 P
+X IO12 6 0 -200 200 R 50 50 0 0 P
+X GND_1 7 0 -100 200 R 50 50 0 0 P
+X 5V 8 0 0 200 R 50 50 0 0 P
+X 3V3 9 1200 0 200 L 50 50 0 0 P
+X IO16 10 1200 -100 200 L 50 50 0 0 P
+X IO0 11 1200 -200 200 L 50 50 0 0 P
+X GND_2 12 1200 -300 200 L 50 50 0 0 P
+X VCC 13 1200 -400 200 L 50 50 0 0 P
+X U0R 14 1200 -500 200 L 50 50 0 0 P
+X U0T 15 1200 -600 200 L 50 50 0 0 P
+X GND_3 16 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
