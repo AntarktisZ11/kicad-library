@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SoongsilToggleSwitch
+#
+DEF 4-1825136-4 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "4-1825136-4" 650 200 50 H V L CNN
+F2 "SHDR3W165P0X470_1X3_1270X686X2220P" 650 100 50 H I L CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1825136%7FA7%7Fpdf%7FEnglish%7FENG_CD_1825136_A7.pdf%7F4-1825136-4" 650 0 50 H I L CNN
+F4 "Switch,toggle,1P,on on,PCB mount,5A" 650 -100 50 H I L CNN "Description"
+F5 "22.2" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "4-1825136-4" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "4-1825136-4" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/4-1825136-4/te-connectivity" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,18 @@
+# README
+**/README.md
+
+# Symbols
+symbols/**
+!symbols/*.dcm
+!symbols/*.lib
+
+# Footprints
+# only allow: footprints/*.pretty/*.kicad_mod
+footprints/*
+!footprints/*.pretty
+footprints/*.pretty/*
+!footprints/*.pretty/*.kicad_mod
+
+# 3D-models
+3d_models/**
+!3d_models/*.stp
