@@ -5,6 +5,7 @@
 symbols/**
 !symbols/*.dcm
 !symbols/*.lib
+!symbols/*.kicad_sym
 
 # Footprints
 # only allow: footprints/*.pretty/*.kicad_mod
