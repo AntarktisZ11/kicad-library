@@ -34,7 +34,7 @@
   (pad 1 thru_hole circle (at 0.000 -0) (size 1.300 1.300) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0.000 -2.5) (size 1.300 1.300) (drill 0.8) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0.000 -5) (size 1.300 1.300) (drill 0.8) (layers *.Cu *.Mask))
-  (model "C:\\Users\\marcu\\Desktop\\Elektronik\\Ext. KiCad lib\\SamacSys_Parts.3dshapes\\EG1270.stp"
+  (model "${KIPRJMOD}/library/3d_models/EG1270.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -44,7 +44,7 @@
   (pad "14" thru_hole circle (at 22.86 -5.08) (size 1.665 1.665) (drill 1.11) (layers *.Cu *.Mask) (tstamp 4d82f259-86ea-4eb9-a7ea-9afa17f0adb2))
   (pad "15" thru_hole circle (at 22.86 -2.54) (size 1.665 1.665) (drill 1.11) (layers *.Cu *.Mask) (tstamp 9168698a-cce5-4543-a5b1-24fde3595d3e))
   (pad "16" thru_hole circle (at 22.86 0) (size 1.665 1.665) (drill 1.11) (layers *.Cu *.Mask) (tstamp 2c26fd10-8e91-4e92-ac7d-d21661174a0d))
-  (model "C:\\Users\\marcu\\Desktop\\Elektronik\\Ext. KiCad lib\\SamacSys_Parts.3dshapes\\ESP32-CAM.stp"
+  (model "${KIPRJMOD}/library/3d_models/ESP32-CAM.stp"
     (offset (xyz 25 22.5 8.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -180 -90))

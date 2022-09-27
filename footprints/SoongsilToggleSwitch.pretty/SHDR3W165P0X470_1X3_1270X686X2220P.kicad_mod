@@ -31,7 +31,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 2.775 2.775) (drill 1.85) (layers *.Cu *.Mask) (tstamp 2c77939e-0083-4f10-b3f4-261502653437))
   (pad "2" thru_hole circle (at 4.699 0) (size 2.775 2.775) (drill 1.85) (layers *.Cu *.Mask) (tstamp 7927f3d6-fecd-4338-aef4-b06bb466854a))
   (pad "3" thru_hole circle (at 9.398 0) (size 2.775 2.775) (drill 1.85) (layers *.Cu *.Mask) (tstamp 0f8115c0-3ef3-4941-b51a-b9e708b40a16))
-  (model "C:\\Users\\marcu\\Desktop\\Elektronik\\Ext. KiCad lib\\SamacSys_Parts.3dshapes\\4-1825136-4.stp"
+  (model "${KIPRJMOD}/library/3d_models/SoongsilToggleSwitch.stp"
     (offset (xyz 4.5 0 10))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
