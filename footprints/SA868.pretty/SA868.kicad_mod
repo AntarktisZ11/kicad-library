@@ -1,7 +1,7 @@
 (footprint "SA868" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 633254A5)
-  (attr through_hole)
+  (tedit 63325AF8)
+  (attr smd)
   (fp_text reference "G-NiceRF_SA868" (at -5.08 -3.048) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5b70b09b-6762-4725-9d48-805300c0bdc8)
