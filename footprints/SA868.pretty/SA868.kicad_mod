@@ -1,6 +1,6 @@
 (footprint "SA868" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 63325AF8)
+  (tedit 6333974F)
   (attr smd)
   (fp_text reference "G-NiceRF_SA868" (at -5.08 -3.048) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -32,9 +32,9 @@
   (pad "16" smd rect (at -4.45 8.7) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a647641f-bf16-4177-91ee-b01f347ff91c))
   (pad "17" smd rect (at -8.9 8.7) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fd4dd248-3e78-4985-a4fc-58bc05b74cbf))
   (pad "18" smd rect (at -13.35 8.7) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e07c4b69-e0b4-4217-9b28-38d44f166b31))
-  (pad "P1" smd rect (at 11.1 0) (size 6.5 6.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 08da8f18-02c3-4a28-a400-670f01755980))
-  (pad "P2" smd rect (at -18.288 -6.858) (size 2 8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 653e74f0-0a40-4ab5-8f5c-787bbaf1d723))
-  (pad "P3" smd rect (at -18.288 6.858) (size 2 8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ec2e3d8a-128c-4be8-b432-9738bca934ae))
+  (pad "19" smd rect (at 11.1 0) (size 6.5 6.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 08da8f18-02c3-4a28-a400-670f01755980))
+  (pad "19" smd rect (at -17.273955 -5.486791) (size 1 8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 653e74f0-0a40-4ab5-8f5c-787bbaf1d723))
+  (pad "19" smd rect (at -17.312651 5.436011) (size 1 8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ec2e3d8a-128c-4be8-b432-9738bca934ae))
   (model "${KIPRJMOD}/library/3d_models/SA868.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
