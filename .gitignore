@@ -17,3 +17,5 @@ footprints/*.pretty/*
 # 3D-models
 3d_models/**
 !3d_models/*.stp
+!3d_models/*.step
+!3d_models/*.wrl
