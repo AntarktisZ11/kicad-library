@@ -19,3 +19,9 @@ footprints/*.pretty/*
 !3d_models/*.stp
 !3d_models/*.step
 !3d_models/*.wrl
+
+# Kicad project files for component making purposes
+*.kicad_pcb
+*.kicad_pro
+*.kicad_sch
+sym-lib-table
