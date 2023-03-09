@@ -24,4 +24,8 @@ footprints/*.pretty/*
 *.kicad_pcb
 *.kicad_pro
 *.kicad_sch
+*.kicad_prl
 sym-lib-table
+fp-lib-table
+fp-info-cache
+kicad-library-backups
