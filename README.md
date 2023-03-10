@@ -19,7 +19,6 @@ Inspired by [hutscape/kicad-library](https://github.com/hutscape/kicad-library)
 ## How to...
 
 ### Make a new symbol
-
 1. Open Symbol Editor
 2. File -> New Library...
 3. Choose _Project_ and OK
@@ -31,3 +30,16 @@ Inspired by [hutscape/kicad-library](https://github.com/hutscape/kicad-library)
 1. Preferences -> Manage Symbol Libraries... -> Project Specific Libraries
 2. Add existing library to table 📂, navigate to library/symbols and choose the one.
 3. Make sure **Library Path** is ${KIPRJMOD}/library/symbols/**YOUR_SYMBOL**.kicad_sym
+
+### Make a new footprint
+1. Open Footprint Editor
+2. File -> New Library...
+3. Choose _Project_ and OK
+4. Name and put in library/footprints
+5. Create new footprint in said library
+6. Link 3D-model if it exists
+
+### Add footprint to project
+1. Preferences -> Manage Footprint Libraries... -> Project Specific Libraries
+2. Add existing library to table 📂, navigate to library/footprints and choose the one.
+3. Make sure **Library Path** is ${KIPRJMOD}/library/footprints/**YOUR_FOOTPRINT**.pretty
